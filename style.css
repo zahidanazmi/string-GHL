@@ -1,32 +1,9 @@
-/* Changed text Agency Dashboard to My Dashboard */
-#sb_agency-dashboard .nav-title {
-font-size: 0 !important;
-color: transparent !important;
-display: inline-block !important;
-position: relative;
+/* Text on the settings sidebar */
+#app .sidebar-v2-agency #sidebar-v2 nav a span{
+    color: #ff00ff !important;
 }
 
-#sb_agency-dashboard .nav-title::after {
-content: "My Dashboard";
-font-size: 14px;
-line-height: 1.2;
-color: #1c1c1c;
-display: inline-block;
-vertical-align: middle;
-transition: color 0.3s ease;
-}
-
-#sb_agency-dashboard.active .nav-title::after,
-#sb_agency-dashboard.exact-active .nav-title::after {
-color: #ffffff !important;
-}
-
-#sb_agency-dashboard.active,
-#sb_agency-dashboard.exact-active {
-background-color: #cabe6d !important;
-border-radius: 20px;
-}
-
-#app .sidebar-v2-agency #sidebar-v2 nav a {
-background: #EFEFEF !important;
+body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a span:not(span.cpanel)
+ {
+    color: #ff00ff !important;
 }
