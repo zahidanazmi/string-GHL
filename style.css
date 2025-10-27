@@ -10,3 +10,6 @@
   --hlpt-left-nav-color: red !important; 
   --hlpt-left-nav-icon-color: red !important;
 }
+*, ::before, ::after{
+      --hlpt-adv-mainnav-hover-active-bg-color: red !important;
+}
