@@ -5,7 +5,6 @@
   --hlpt-primary-theme-color: #e17100FF !important;
   --avatar-circle-background-color: var(--hlpt-primary-theme-bg-color) !important;
   --avatar-circle-background-color-hover: var(--hlpt-primary-theme-color) !important;
-  --avatar-font-color: #fff !important;
 }
 *, ::before, ::after{
       --hlpt-adv-mainnav-hover-active-bg-color: #e17100FF !important;
