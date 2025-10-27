@@ -1,15 +1,12 @@
-/* Text on the settings sidebar */
-#app .sidebar-v2-agency #sidebar-v2 nav a span{
-    color: #ff00ff !important;
-}
-
-#sb_agency-saas-configurator span.hl_text-overflow
-
-/* Text on the settings sidebar when non active */
+/* Color changed */
 :root {
-  --hlpt-left-nav-color: red !important; 
-  --hlpt-left-nav-icon-color: red !important;
+  --hlpt-left-nav-color: #400040FF !important; 
+  --hlpt-left-nav-icon-color: #e17100FF !important;
+  --hlpt-primary-theme-color: #e17100FF !important;
+  --avatar-circle-background-color: var(--hlpt-primary-theme-bg-color) !important;
+  --avatar-circle-background-color-hover: var(--hlpt-primary-theme-color) !important;
+  --avatar-font-color: #fff !important;
 }
 *, ::before, ::after{
-      --hlpt-adv-mainnav-hover-active-bg-color: red !important;
+      --hlpt-adv-mainnav-hover-active-bg-color: #e17100FF !important;
 }
