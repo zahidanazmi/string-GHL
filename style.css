@@ -3,7 +3,4 @@
     color: #ff00ff !important;
 }
 
-body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a span:not(span.cpanel)
- {
-    color: #ff00ff !important;
-}
+#sb_agency-saas-configurator span.hl_text-overflow
