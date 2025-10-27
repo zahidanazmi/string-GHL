@@ -4,3 +4,9 @@
 }
 
 #sb_agency-saas-configurator span.hl_text-overflow
+
+/* Text on the settings sidebar when non active */
+:root {
+  --hlpt-left-nav-color: red !important; 
+  --hlpt-left-nav-icon-color: red !important;
+}
